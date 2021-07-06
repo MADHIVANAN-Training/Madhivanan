@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrapper{
+  display:flex;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+#sidebar{
+  min-width: 250px;
+  max-width: 250px;
+}
+#sidebar .sidebar-header{
+  background-color: white;
+}
+#sidebar ul.components{
+  padding: 20px 0;
+  border-bottom: 1px solid white;
+}
+.list-group{
+  max-width: 84px;
+}
+.para{
+  text-align: center;
+}
+
+#sidebar ul li a{
+  padding: 10px;
+  font-size: 1.1em;
+  display: block;
+}
+#sidebar ul li a:hover{
+color: rgb(186, 231, 229);
+}
+.bg{
+  background-color: lightgray;
+}
